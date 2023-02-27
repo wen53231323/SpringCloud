@@ -19,7 +19,7 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-        <!-- lombok -->
+        <!-- lombok依赖 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
