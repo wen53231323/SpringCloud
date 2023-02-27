@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * 注解@Feignclient可以解析SpringMVC的@RequestMapping注解下的接口，
  * 并通过动态代理的方式产生实现类，实现类中做负载均衡并调用其他服务。
  */
-//Feign远程调用：@FeignClient("provider微服务名字")
+// Feign远程调用：@FeignClient("provider微服务名字")
 @FeignClient("cloud-user")
 public interface UserClient {
     /**
