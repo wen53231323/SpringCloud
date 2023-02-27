@@ -11,7 +11,7 @@
 
     <artifactId>cloudalibaba-sentinel-service8401</artifactId>
     <dependencies>
-        <!--SpringCloud ailibaba nacos -->
+        <!--SpringCloud ailibaba nacos依赖 -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
